@@ -14,4 +14,14 @@ Studying JS/FE at RS SCHOOL
 * Adobe Photoshop
 ---
 # Code example:
-
+function sum(a, b) {
+  return a + b;
+}
+alert(1 + 2 = ${sum(1, 2)}.); // 1 + 2 = 3
+---
+# Education:
+National Technical University "Kharkiv Polytechic Institute"
+---
+# Languages:
+Ukrainian - native speaker
+English - B2
