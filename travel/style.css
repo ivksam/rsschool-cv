@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Magra';
+    src: url("./assets/fonts/Magra-Bold.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'RedHatText';
+    src: url("./assets/fonts/RedHatText-Medium.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Aleo';
+    src: url("./assets/fonts/Aleo-Bold.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Aleo';
+    src: url("./assets/fonts/Aleo-Regular.ttf");
+    font-weight: 100;
+  }
