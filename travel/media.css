@@ -1,0 +1,446 @@
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+}
+    .logo {
+        font-size: 1.75rem;
+}
+    .section-one-title {
+        font-size: 4rem;
+}
+    .recommendations {
+        font-size: 1rem;
+}
+    .plan {
+        font-size:1.25rem;
+}
+   .section-title {
+        font-size: 2rem;
+}
+    .stories {
+        font-size: 2rem;
+}
+    
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+}
+    .logo {
+        font-size: 1.5rem;
+}
+    .nav-list {
+        padding-left: 20px;
+        font-size: 0.75rem;
+}
+    .login {
+        font-size: 0.75rem;
+        width: 80px;
+        height: 30px;
+}
+    .section-one-title {
+        font-size: 3rem;
+}
+    .recommendations {
+        font-size: 0.75rem;
+}
+    form [name="search"] {
+        height: 75px;
+}
+    input::placeholder { 
+        font-size: 1.25rem;
+        padding-left: 30px;      
+}
+    .plan {
+        font-size:1rem;
+        margin-top: 8px;
+}
+    .section-title {
+        font-size: 1.75rem;
+}
+    .steps-section__title {
+        font-size: 0.75rem;
+}
+    .steps__cards {
+        padding: 0 80px;
+        height: auto;
+}
+    .bar{
+        height: 15px;
+        width: 15px;
+        margin: 10px;
+}
+    .find {
+        margin-left: 43%;
+        padding-left: 6%;
+        font-size: 1rem;
+        width: 17%;
+        height: 50px;
+        background-image: url(./assets/svg/bi_arrow_right_small.svg);
+}
+    .see {
+        width: 22%;
+        height: 59px;
+        margin-left: 42%;
+        font-size: 1rem;
+        background-image: url(./assets/svg/bi_arrow_right_small.svg);
+}
+    .find:hover  {
+         background-image: url(./assets/svg/bi_arrow_right_hover_small.svg);
+}
+    .see:hover  {
+         background-image: url(./assets/svg/bi_arrow_right_hover_small.svg);
+}
+    .stories {
+        font-size: 1.75rem;
+}
+    .story {    
+    font-size: 1rem;
+}
+    .read-more {
+       font-size: 1rem;
+}
+    .stand {
+      display: none;
+}
+    .left {
+       margin-top: 13px;
+      
+
+}
+    .copyrights {
+      margin-top: 11px;
+      
+}
+    .nav-social-list {
+    margin-top: 30px;
+}
+
+
+
+}
+
+
+    
+@media screen and (max-width: 970px) {
+    .container {
+        max-width: 750px;
+    }
+    
+    .logo {
+        font-size: 1rem;
+}
+    .login {
+        font-size: 0.5rem;
+        width: 60px;
+        height: 25px;
+}
+
+    .nav-list {
+        padding-left: 10px;
+        font-size: 0.75rem;
+}
+    .nav-item {
+        margin-right: 20px;
+}
+    .section-one-title {
+        font-size: 1.7rem;
+}
+    .recommendations {
+        font-size: 0.5rem;
+}
+    form [name="search"] {
+        height: 50px;
+}
+    input::placeholder { 
+        font-size: 1rem;      
+}
+    .plan {
+        font-size:1rem;
+        margin-top: 7px;
+        height: 37px;
+}
+    .section-title {
+        font-size: 1.5rem;
+}
+    .steps-section__title {
+        font-size: 0.5rem;
+}
+    .steps__cards {
+        padding: 0 50px;
+}
+    .bar{
+        height: 10px;
+        width: 10px;
+        margin: 5px;
+}
+    .find {
+        margin-left: 43%;
+        padding-left: 6%;
+        font-size: 0.75rem;
+}
+    .see {
+        width: 20%;
+        height: 50px;
+        margin-left: 47%;
+        font-size: 0.75rem;
+}
+    .stories {
+        font-size: 1.25rem;
+}
+    .story {    
+        font-size: 0.5rem;
+}
+    .read-more {
+       font-size: 0.5rem;
+}
+    .left {
+       margin-top: 13px;
+       
+}
+    .copyrights {
+      margin-top: 11px;
+
+}
+    .nav-social-list {
+    margin-top: 30px;
+}
+.footer-container {
+    font-size: 0.5rem; 
+}
+
+
+}
+
+
+    
+
+@media screen and (max-width: 750px) {
+    .container {
+        max-width: 550px;
+    }
+    .logo {
+        font-size: 0.75rem;
+        padding-left: 0;
+}
+    .login {
+        font-size: 0.5rem;
+        width: 35px;
+        height: 15px;
+}
+    .nav-list {
+        padding-left: 4px;
+        font-size: 0.4rem;
+}
+    .nav-item {
+        margin-right: 3px;
+}
+
+    .section-one-title {
+        font-size: 1.7rem;
+}
+    .recommendations {
+        font-size: 0.5rem;
+}
+    form [name="search"] {
+        height: 45px;
+}
+    input::placeholder { 
+        font-size: 0.75rem; 
+        padding-left: 20px;     
+}
+    .plan {
+        font-size:0.75rem;
+        margin-top: 5px;
+        height: 33px;
+}
+    .section-title {
+        font-size: 1.5rem;
+}
+     .steps-section__title {
+        font-size: 0.5rem;
+}
+    .steps__cards {
+        padding: 0 30px;
+}
+    .find {
+        margin-left: 43%;
+        padding-left: 6%;
+        font-size: 0.5rem;
+        width: 17%;
+        height: 40px;
+}
+    .see {
+        width: 20%;
+        height: 48px;
+        margin-left: 49%;
+        padding-left: 6%;
+        font-size: 0.5rem;
+}
+    .stories {
+        font-size: 0.75rem;
+}
+    .story {    
+        font-size: 0.25rem;
+}
+    .read-more {
+       font-size: 0.25rem;
+}
+
+.footer-container {
+    font-size: 0.25rem; 
+
+}
+    .left {
+        margin-top:24px;
+} 
+.copyrights {
+      margin-top: 26px;
+}
+
+    .github {
+        width: 32px;
+        height: 32px;
+        background-image: url(./assets/img/GitHubMark32px.png);
+        background-repeat: no-repeat;
+}
+.nav-social-list {
+    margin-right: 10px;
+}
+ 
+
+    
+
+}
+@media screen and (max-width: 550px) {
+    .container {
+        max-width: 391px;
+    }
+    .logo {
+        font-size: 0.75rem;
+}
+  .nav-list {
+        padding-left: 0;
+        font-size: 0.5rem;
+}
+    .nav-item {
+        margin-right: 5px;
+}
+
+    .section-one-title {
+        font-size: 1.2rem;
+}
+    .recommendations {
+        font-size: 0.25rem;
+}
+    form [name="search"] {
+        height: 40px;
+}
+    input::placeholder { 
+        font-size: 0.5rem;
+        padding-left: 15px;
+
+}
+    .plan {
+        font-size:0.4rem;
+        margin-top: 5px;
+        height: 33px;
+}
+    .section-title {
+        font-size: 1.25rem;
+}
+    .steps-section__title {
+        font-size: 0.25rem;
+}
+    .steps__cards {
+        padding: 0 30px;
+}
+    .steps__card {
+        margin-right: 5px;
+        margin-left: 5px;
+}
+    .find {
+        margin-left: 46%;
+        margin-top: 7%;
+        padding-left: 6%;
+        font-size: 0.25rem;
+        width: 17%;
+        height: 32px;
+}
+    .see {
+        width: 33%;
+        height: 35px;
+        margin-left: 37%;
+        font-size: 0.25rem;
+}
+    .stories {
+        font-size: 0.5rem;
+}
+    .story {    
+        font-size: 0.25rem;
+}
+    .read-more {
+       font-size: 0.25rem;
+}
+.footer-container {
+    font-size: 0.25rem; 
+    
+}
+.left {
+        display: none;
+} 
+.copyrights {
+      display: none;
+}
+
+.nav-social-list {
+    margin-left: 80px;
+}
+}
+
+@media screen and (max-width: 390px) {
+    
+    .container {
+        max-width: 320px;
+        
+}
+
+.nav-list {
+   display: none;
+}
+.menu-btn {
+   display: flex;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+}
+
+.login {
+    display: none;
+}
+
+    
+.logo {
+  display: none;
+}
+
+.section-one-title {
+    display: none;
+}
+.recommendations {display: none;}
+}
+.section-preview {
+    margin-bottom: 49%;
+
+}
+
+
+
+}
+
+
+
+
