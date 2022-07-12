@@ -21,7 +21,7 @@
     .stories {
         font-size: 2rem;
 }
-    
+
 }
 @media screen and (max-width: 1200px) {
     .container {
@@ -48,9 +48,9 @@
     form [name="search"] {
         height: 75px;
 }
-    input::placeholder { 
+    input::placeholder {
         font-size: 1.25rem;
-        padding-left: 30px;      
+        padding-left: 30px;
 }
     .plan {
         font-size:1rem;
@@ -95,7 +95,7 @@
     .stories {
         font-size: 1.75rem;
 }
-    .story {    
+    .story {
     font-size: 1rem;
 }
     .read-more {
@@ -106,12 +106,12 @@
 }
     .left {
        margin-top: 13px;
-      
+
 
 }
     .copyrights {
       margin-top: 11px;
-      
+
 }
     .nav-social-list {
     margin-top: 30px;
@@ -122,12 +122,12 @@
 }
 
 
-    
+
 @media screen and (max-width: 970px) {
     .container {
         max-width: 750px;
     }
-    
+
     .logo {
         font-size: 1rem;
 }
@@ -153,8 +153,8 @@
     form [name="search"] {
         height: 50px;
 }
-    input::placeholder { 
-        font-size: 1rem;      
+    input::placeholder {
+        font-size: 1rem;
 }
     .plan {
         font-size:1rem;
@@ -189,7 +189,7 @@
     .stories {
         font-size: 1.25rem;
 }
-    .story {    
+    .story {
         font-size: 0.5rem;
 }
     .read-more {
@@ -197,7 +197,7 @@
 }
     .left {
        margin-top: 13px;
-       
+
 }
     .copyrights {
       margin-top: 11px;
@@ -207,14 +207,14 @@
     margin-top: 30px;
 }
 .footer-container {
-    font-size: 0.5rem; 
+    font-size: 0.5rem;
 }
 
 
 }
 
 
-    
+
 
 @media screen and (max-width: 750px) {
     .container {
@@ -246,9 +246,9 @@
     form [name="search"] {
         height: 45px;
 }
-    input::placeholder { 
-        font-size: 0.75rem; 
-        padding-left: 20px;     
+    input::placeholder {
+        font-size: 0.75rem;
+        padding-left: 20px;
 }
     .plan {
         font-size:0.75rem;
@@ -281,7 +281,7 @@
     .stories {
         font-size: 0.75rem;
 }
-    .story {    
+    .story {
         font-size: 0.25rem;
 }
     .read-more {
@@ -289,12 +289,12 @@
 }
 
 .footer-container {
-    font-size: 0.25rem; 
+    font-size: 0.25rem;
 
 }
     .left {
         margin-top:24px;
-} 
+}
 .copyrights {
       margin-top: 26px;
 }
@@ -308,9 +308,9 @@
 .nav-social-list {
     margin-right: 10px;
 }
- 
 
-    
+
+
 
 }
 @media screen and (max-width: 550px) {
@@ -337,7 +337,7 @@
     form [name="search"] {
         height: 40px;
 }
-    input::placeholder { 
+    input::placeholder {
         font-size: 0.5rem;
         padding-left: 15px;
 
@@ -377,19 +377,19 @@
     .stories {
         font-size: 0.5rem;
 }
-    .story {    
+    .story {
         font-size: 0.25rem;
 }
     .read-more {
        font-size: 0.25rem;
 }
 .footer-container {
-    font-size: 0.25rem; 
-    
+    font-size: 0.25rem;
+
 }
 .left {
         display: none;
-} 
+}
 .copyrights {
       display: none;
 }
@@ -400,10 +400,10 @@
 }
 
 @media screen and (max-width: 390px) {
-    
+
     .container {
         max-width: 320px;
-        
+
 }
 
 .nav-list {
@@ -422,7 +422,7 @@
     display: none;
 }
 
-    
+
 .logo {
   display: none;
 }
