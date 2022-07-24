@@ -105,7 +105,7 @@
   .main-title {
       margin: -1px 0 0 0;
       font-family: 'Aleo';
-      font-size: 80px;
+      font-size: 5rem;
       font-weight: bold;
   }
   .p-preview {
@@ -153,14 +153,14 @@
       align-self: center;
       margin: 0;
       font-family: 'RedHatText';
-      font-size: 40px;
+      font-size: 2.5rem;
       font-weight: medium;
       color: #F2785C;
       text-transform: uppercase;
   }
   .steps-content {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
       align-items: center;
       width: 1177px;
@@ -182,7 +182,7 @@
   }
   .steps-item {
       display: flex;
-      justify-content: center;
+      justify-content:space-between;
       align-items: center;
       width: 100px;
       height: 100px;
