@@ -1,0 +1,642 @@
+@media screen and (max-width: 1439px) {
+    body{
+        width: auto; 
+        background: url("./assets/img/bg_top.png") no-repeat center top;
+        background-size: 100%;
+    }
+    main{
+        position: relative;
+    }
+    #preview{
+        padding: 32px 90px 0 120px;
+        height: auto;
+        padding-bottom: 15%;
+    }
+    .p-preview{
+        margin-top:20px;
+    }
+    .search{
+        width: auto;
+        max-width: 892px;
+    }
+    .planning-button{
+        height: auto;
+        width: auto;
+    }
+    .search-input{
+        height: auto;
+        width: auto;
+        flex-grow: 1;
+    } 
+    #steps {
+        height: auto;
+        padding-top: 6%;
+    }
+    .steps-content{
+        width: 100%;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+    .steps-figure{
+        width: 317px;
+    }
+    .step1{
+        align-items: flex-start;
+        position: relative;
+        top: 1px;
+    }
+    .step2 {
+        margin-left: 0;
+    }
+    .st2{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .step3{
+        align-items: flex-end;
+        text-align: right;
+        position: relative;
+        top: 1px;
+    }
+    #destinations{
+        height: auto;
+    }
+    .find-more-button{
+        margin-top: 40px;
+    }
+    #stories{
+        overflow: visible;
+        position: relative;
+    }
+    .bg-bottom{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 95px;
+        width: 100%;
+        height: 1331px;
+    }
+    .stories-content{
+        width: 100%;
+        padding: 40px 120px;
+    }
+    .story{
+        width: 100%;
+    }
+    .story-p{
+        overflow: hidden;
+        -webkit-line-clamp: 6;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .story-text{
+        padding-left: 30px;
+        width: 66.6%;
+    }
+}   
+@media screen and (max-width:1280px){
+    #preview{
+        padding-bottom: 10%;
+    }
+    .slider-item{
+        padding: 0 15px;
+    }
+    .stories-content{
+        padding: 40px 50px;
+    }
+}
+@media screen and (max-width:1000px){
+    .steps-figure{
+        width: 180px;
+    } 
+    header{
+        padding: 0 15px;
+    }
+    .text-logo{
+        font-size: 20px;
+    }
+    .header-nav{
+        width: auto;
+        font-size: 14px;
+        left: 0;
+    }
+    .menu-item{
+        margin-right: 10px;
+    }
+    .log-button{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    #preview{
+        padding: 32px 90px 15%;
+    }
+    .main-title{
+        font-size: 40px;
+    }
+    .p-preview{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .search{
+        width: auto;
+        height: 48px;
+        padding: 0 9px 0 16.5px;
+    }
+    .search-input{
+        font-size: 14px;
+    }
+    .big-buttons {
+        font-size: 15px;
+    }
+    #steps{
+        padding: 6% 50px 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .steps-text{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .country{
+        font-size: 25px;
+    }
+    .button-arrow{
+        width: 20px;
+        height: 20px;
+    }
+    #stories{
+        margin-top: 50px;
+        height: auto;
+    }
+    .stories-content{
+        height: auto;
+        width: 100%;
+        padding: 10px 15px 13px;
+        margin-top: 11px;
+    }
+    .story{
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .story1{
+        background-size: cover;
+    }
+    .story2{
+        background-size: cover;
+    }
+    .story3{
+        background-size: cover;
+    }
+    .story4{
+        background-size: cover;
+    }
+    .story-p{
+        font-size: 15px;
+    }
+    .story-link{
+        font-size: 15px;
+    }
+    .bg-bottom{
+        top: 51px;
+        height: 100%;
+    }
+    .see-more-button{
+        top: 0;
+        width: auto;
+    }
+    footer{
+        height: 50px;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+    footer p{
+        left: -2%;
+    }
+}
+@media screen and (max-width: 800px){
+    .p-preview{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    #preview{
+        padding: 32px 90px 7%;
+    }
+    .country{
+        font-size: 20px;
+    }  
+    .popup_body {
+        width: 350px;
+        padding: 15px 20px;
+    }
+    .popup h3{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .popup button{
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    .fb-button{
+        padding: 10px 0;
+        margin-bottom: 10px;
+    } 
+    .google-button{
+        padding: 10px 0;
+        margin-bottom: 15px;
+    }
+    .popup button img{
+        width: 15px;
+        height: 15px;
+        margin-right: 7px;
+    }
+    #popup-or{
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .popup_form label{
+        font-size: 9px;
+    }    
+    .popup p{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .popup_form input{
+        height: 30px;
+    }
+    .email{
+        margin-bottom: 10px;
+    }
+    .password{
+        margin-bottom: 10px;
+    }
+    .forgot-password-link{
+        margin-bottom: 7px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:700px) {
+    footer p {
+        display: none;
+    }
+}
+@media screen and (max-width: 650px){
+    header{
+        height: auto;
+        padding: 7px 10px;
+    }
+    .log-button{
+        padding: 10px 15px;
+    }
+    .img-logo{
+        bottom: 0;
+    }
+    .text-logo{
+        font-size: 15px;
+    }
+    .header-nav{
+        font-size: 9px;
+    }
+    .menu-item{
+        white-space: nowrap;
+        margin-right: 5px;
+    }
+    .log-button{
+        font-size: 10px;
+        padding: 7px 12px;
+    }
+    #preview{
+        padding: 22px 40px 17%;
+    }
+    .main-title{
+        font-size: 25px;
+    }
+    .p-preview{
+        font-size: 7px;
+    }
+    .big-buttons {
+        font-size: 11px;
+    }
+    .planning-button{
+        padding: 7.5px 9px;
+    }
+    .search{
+        margin-top: 12px;
+        height: 40px;
+    }
+    .search-input{
+        font-size: 12px;
+    }
+    #steps{
+        padding: 6% 35px 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .steps-content{
+        height: auto;
+    }
+    .steps-text{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .steps-item{
+        width: 70px;
+        height: 70px;
+    }
+    .bike{
+        background-image: url(./assets/svg/Vector1_small.svg);
+    }
+    .bike:hover{
+        background-image: url(./assets/svg/Vector1_small_hover.svg);
+    }
+    .calendar{
+        background-image: url(./assets/svg/Vector2_small.svg);
+    }
+    .calendar:hover{
+        background-image: url(./assets/svg/Vector2_small_hover.svg);
+    }
+    .plane{
+        background-image: url(./assets/svg/Vector3_small.svg);
+    }
+    .plane:hover{
+        background-image: url(./assets/svg/Vector3_small_hover.svg);
+    }
+    .steps-figure{
+        width: 120px;
+    }
+    .slider .swiper-pagination{
+        width: 45px;
+    }
+    .slider .swiper-pagination-bullet{
+        width: 8px;
+        height: 8px;
+        padding: 0;
+    }
+    .country{
+        font-size: 17px;
+        left: 25px;
+        bottom: 20px;
+    }  
+    .find-more-button{
+        padding: 7.5px 12px;
+    }
+    #stories{
+        margin-top: 20px;
+    }
+    .story{
+        height: 100px;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 11px;
+    }
+    .story-p{
+        font-size: 9px;
+        margin-top: 10px;
+        -webkit-line-clamp: 6;
+    }
+    .story-link{
+        font-size: 9px;
+    }
+    .see-more-button{
+        padding: 7.5px 13.5px;
+    }
+    .bg-bottom{
+        top: 30px;
+    }
+    footer{
+        font-size: 10px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .footer-left{
+        display: none;
+    }
+    .social-media {
+        margin: 0 auto;
+     }
+    .social-media a svg  {
+        width: 25px;
+        height: 25px;
+    } 
+}
+@media screen and (max-width:450px) {
+    #preview{
+        padding: 22px 40px 5%;
+    }
+    .bg-bottom{
+        display: none;
+    }   
+    .bg-bottom-mobile{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 30px;
+        width: 100%;
+        height: 693px;
+    }    
+    .slider-item{
+        padding: 0 7px;
+    }
+    .country{
+        font-size: 13px;
+    }
+    .story{
+        height: 130px;
+    }
+    .story1{
+        background: url("./assets/img/R15_mob.png") no-repeat center;
+    }
+    .story2{
+        background: url("./assets/img/R16_mob.png") no-repeat center;
+    }
+    .story3{
+        background: url("./assets/img/R17_mob.png") no-repeat center;
+    }
+     .story4{
+        background: url("./assets/img/R18_mob.png") no-repeat center;
+    }
+    footer{
+        height: 65px;
+    }
+    .social-media a svg {
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width:391px) {
+    body{
+        background:url("./assets/img/bg_top_mob.png") no-repeat center top;
+    }
+    header {  
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 0 0 16px;
+        background: none;
+        box-shadow: none;
+        height: 75px;
+    }
+    nav{
+        overflow: hidden;
+    }
+    .header-nav{
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+        left: 0;
+        margin: 0;
+        padding: 8px 15px 30px 8px;
+        width: 165px;
+        height: 250px;
+        background: #F2785C;
+        box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+        border-radius: 10px;
+        gap: 10px;
+        z-index: 10;
+        position: relative;
+        left: 100%;
+        transition: 350ms ease-in;
+        font-size: 16px;
+    }
+    .menu-item{
+        margin-right: 0;
+    }
+    .logo{
+        align-self: flex-end;
+    }
+    .header-nav.open{
+        left: 0;
+        background-image: url(./assets/svg/menu_mob_close.svg);
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+    }
+    a.nav-link{
+        padding-left: 35px;
+    }
+    nav{
+        position: relative;
+    }
+    .mobile-buttons, .mob-menu-item{
+        display: block;
+    }  
+    .mobile-nav-toggle{
+        position: absolute;
+        top: 43px;
+        right: 20px;
+        background: url(./assets/svg/menu_mob.svg);
+        width: 35px;
+        aspect-ratio: 1;
+        z-index: 5;
+        transition: 500ms;
+    }
+    .close-button{
+        width: 35px;
+        height: 35px;
+        z-index: 50;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .close-button:hover {
+       background-image: url(./assets/svg/menu_mob_close_hover.svg);
+    }
+    #preview{
+        justify-content: flex-end;
+        padding: 0 15px 61px;
+        position: relative;
+        height: 176px;
+    }
+   .search{
+        width: 100%;
+       height: 48px;
+    } 
+    input[type="text" i]{
+        font-size: 14px;
+        padding: 2px 0 0 0;
+    }
+    #steps {
+        height: 193px;    
+        padding: 20px 15px;
+    }
+    #destinations{
+        height: 289px;
+    }
+    .slider-img-mobile{
+        display: block;
+        position: relative;
+        border-radius: 16px;
+        width: 100%;
+    }
+    .slider-item{
+        padding: 0 15px;
+    }
+    .slider-button-prev, .slider-button-next{
+        width: 30px;
+        height: 50px;        
+        top: 43%;       
+        opacity: 50%;        
+        transition: 300ms;
+    }
+    .slider-button-prev:hover, .slider-button-next:hover{      
+        opacity: 100%;
+    }
+    .slider-button-next{
+        background: url(./assets/svg/arrow_right.svg) 0 0 / 100% no-repeat;
+        right: 20px;
+    }
+    .slider-button-prev{
+        background: url(./assets/svg/arrow_left.svg) 0 0 / 100% no-repeat;
+        left: 20px;
+    }
+    .country{
+        font-size: 20px;
+        top: 8px;
+        left: 30px;
+    }    
+    .slider-img
+    {
+        display: none;
+    }
+    .slider .swiper-pagination{
+        top: -20px;
+    }
+    .button-arrow{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .find-more-button{
+        margin-top: 0;
+    }
+    .story-text{
+        width: 57%;
+        padding: 5px 0 0 10px;
+    }
+    .story-p{
+        -webkit-line-clamp: 8;
+    }
+    .story-img{
+        width: 43%;
+    }
+    footer{
+        position: relative;
+        z-index: 3;
+        justify-content: center;
+    }
+    .popup{
+        padding: 0 10px;
+        z-index: 10;
+    }
+    h1,
+    .p-preview, .log-button, .text-logo, .slider-img, .bg-bottom, .dots{
+        display: none;
+    }
+}
+
+
