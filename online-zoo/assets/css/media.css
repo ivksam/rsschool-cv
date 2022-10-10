@@ -1,0 +1,858 @@
+@media(max-width: 1550px) {
+    .backstage_side_img {
+        display:none;
+    }
+}
+@media(max-width: 1049px) {
+    .donation_progress datalist {
+        width:108.5%;
+    }
+}
+@media(max-width: 1000px) {
+    .navigation ul {
+        gap:48px;
+    }
+    .main .watch {
+        height:584px;
+    }
+    .slogan {
+        top:123px;
+        right:94px;
+        font-weight:700;
+        font-size:85px;
+        line-height:75%;
+    }
+    .slogan:before {
+        top:-54px;
+        left:-64px;
+        width:367px;
+        height:367px;
+    }
+    .slogan .button {
+        margin-top:41px;
+    }
+    .donate .panda {
+        height:390px;
+        background:url(../../assets/img/Giant_Panda.png) no-repeat left -195px center/165%;
+    }
+    .backstage {
+        margin-top:109px;
+    }
+    .backstage .container {
+        grid-template-columns:minmax(455px, 609px) minmax(465px, 1fr);
+        gap:30px;
+    }
+    .backstage_content h2 {
+        margin-top:-9px;
+        padding-right:0;
+    }
+    .backstage_content p {
+        margin-top:23px;
+        padding-right:15px;
+    }
+    .pets {
+        margin-top:144px;
+    }
+
+    .pets .container {
+        padding:0 29.5px;
+    }
+    .pets_arrows {
+        width:295px;
+        top:369px;
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        transform:translateX(-50%);
+        z-index:2;
+    }
+    .pets_content {
+        row-gap:92px;
+    }
+    .pets_content>:nth-child(3) {
+        grid-row-start:2;
+    }
+    .pets_content>:nth-child(5) {
+        grid-row-start:1;
+        grid-column-start:3;
+    }
+    .pets_title_ad {
+        display:block;
+    }
+    .pets_title_ad+* {
+        display:none;
+    }
+    .pick {
+        margin-top:142px;
+        padding-top:30px;
+        padding-bottom:50px;
+    }
+    .pick_content {
+        padding-top:30px;
+        padding-bottom:52px;
+    }
+    .pick_content h3 {
+        margin-top:37px;
+    }
+    .pick_p {
+        padding-left:49px;
+        margin-top:-11px;
+        padding-right:80px;
+    }
+    .pick_em {
+        padding-right:190px;
+    }
+    .pick .button {
+        margin-top:69.5px;
+    }
+    .pick_title {
+        padding-left:49px;
+        margin-top:21px;
+    }
+    .testimonials_content {
+        grid-template-columns:repeat(3, minmax(190px, 293px));
+        margin-top:29px;
+    }
+    .testimonials_content>* {
+        min-width:calc(33.33% - 20px);
+        max-width:293px;
+        margin-top:29px;
+    }
+    .testimonials_item:last-child {
+        display:none;
+    }
+    .testimonials h2 {
+        margin-top:100px;
+    }
+    .testimonials_progress {
+        width:390px;
+        margin:21px auto 51px auto;
+        position:relative;
+        left:-7px;
+        top:-1px;
+    }
+    .testimonials_progress input::-webkit-slider-thumb {
+        width:11.1%;
+    }
+    .testimonials_progress div:before {
+        width:75px;
+    }
+    .testimonials_side {
+        right:-24px;
+        bottom:-268px;
+        -webkit-transform:scale(0.8);
+        transform:scale(0.8);
+    }
+    .main .footer .container {
+        max-width:calc(1160px + 88px);
+        padding:0 44px;
+    }
+    .footer {
+        margin-top:140px;
+    }
+    .footer_navigation {
+        position:relative;
+        left:-11px;
+        top:-1px;
+    }
+    .donate .footer_navigation {
+        left:-5px;
+    }
+    .footer_r {
+        position:absolute;
+        right:50px;
+        width:367px;
+        height:100%;
+    }
+    .donate .footer_r {
+        right:62px;
+    }
+    .donation {
+        padding-bottom:30px;
+    }
+    .donation_info h2 {
+        padding-right:100px;
+    }
+    .donation_info p {
+        margin-top:30px;
+    }
+    .donation_action {
+        padding-top:21px;
+        padding-bottom:45px;
+        margin-top:38px;
+    }
+    .donation_action>p {
+        padding-left:47px;
+        margin-top:11px;
+    }
+    .donation_progress {
+        width:84%;
+    }
+    .donation_progress::after {
+        left:10px;
+        width:98%;
+    }
+    .donation_progress input {
+        width:103.7%;
+        left:-1.7%;
+    }
+    .donation_progress datalist {
+        width:115%;
+        left:-49px;
+        grid-template-columns:repeat(7, 1fr);
+    }
+    .donation_progress datalist option::before {
+        left:51px;
+    }
+    .designed {
+        position:absolute;
+        right:-32px;
+        bottom:0;
+    }
+}
+@media(max-width: 980px) {
+    .header {
+        position:fixed;
+        height:34px;
+    }
+    .header .logo {
+        width:47px;
+        border:0;
+    }
+    .header .logo h1,
+    .header .logo h2 {
+        font-weight:400;
+        font-size:12.3px;
+    }
+    .header .logo img {
+        width:8px;
+        left:4px;
+        bottom:12px;
+    }
+    .navigation ul {
+        gap:37px;
+    }
+    .header .navigation ul {
+        /* display:none; */
+
+        position:fixed;
+        top:0;
+        left:0;
+        -webkit-transform:translateX(-100%);
+        transform:translateX(-100%);
+        z-index:2;width:100%;
+        height:100vh;
+        display:-webkit-box;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        flex-direction:column;
+        gap:15px;padding:82px 0 0 10px;
+        background:rgba(253,253,255,.85);
+        -webkit-transition:all .3s ease;
+        transition:all .3s ease;
+    }
+    .navigation .burger {
+        width:18px;
+        height:10px;
+        background-image:url("../../assets/svg/burger_menu.svg");
+        position:absolute;
+        top:-6px;
+        right:0;
+        z-index:1;
+        cursor:pointer;
+    }
+    .burger_opened .header .navigation ul{
+        -webkit-transform:translateX(0);
+        transform:translateX(0);
+    }
+    .navigation ul li {
+        align-self:flex-start;
+    }
+    .header .navigation li:last-child {
+        margin-left:0;
+    }
+    .container {
+        padding:0 20px;
+    }
+    .backstage .container {
+        display:block;
+    }
+    .main .watch {
+        height:373px;
+    }
+    .slogan {
+        top:82px;
+        right:0;
+        font-size:54.3px;
+    }
+    .slogan:before {
+        top:-38px;
+        left:-17px;
+        width:237.6px;
+        height:237.6px;
+    }
+    .slogan .button {
+        margin-top:-7px;
+        margin-left:-219.5%;
+    }
+    .backstage {
+        margin-top:69px;
+    }
+    .backstage_side_img {
+        display:block;
+        -webkit-transform:scale(0.63, 0.75);
+        transform:scale(0.63, 0.75);
+        -webkit-transform-origin:right top;
+        transform-origin:right top;
+        right:0;
+        top:-64px;
+    }
+    .backstage_content h3 {
+        margin-top:29px;
+    }
+    .backstage_content p {
+        padding-right:105px;
+    }
+    .backstage_content p:last-child {
+        margin-top:20px;
+    }
+    .backstage_img {
+        display:none;
+    }
+    .pets {
+        margin-top:81px;
+    }
+    .pets .container {
+        max-width:640px;
+        padding:0 20px;
+    }
+    .pets_content {
+        grid-template-columns:repeat(2, minmax(230px, 1fr));
+    }
+    .pets_content>:nth-child(3) {
+        grid-row-start:auto;
+    }
+    .pets_content>:nth-child(5) {
+        grid-row-start:auto;
+        grid-column-start:auto;
+    }
+    .pets_content>:nth-child(5),
+    .pets_content>:nth-child(6) {
+        display:none;
+    }
+    .pets_arrows {
+        width:155px;
+        top:343px;
+    }
+    .pets_info {
+        -webkit-box-flex:0;
+        flex:0 1 47px;
+    }
+    .pets_icon {
+        position:relative;
+        right:-5px;
+        -webkit-transform:scale(0.8);
+        transform:scale(0.8);
+    }
+    .pets_title {
+        left:-5px;
+        top:2px;
+    }
+    .pets_title h2 {
+        font-size:12.5px;
+    }
+    .pets_title p {
+        font-size:11.7px;
+    }
+    .pets .button {
+        margin-top:60px;
+    }
+    .pick {
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-top:100px;
+    }
+    .pick .container {
+        padding:0;
+    }
+    .pick_content {
+        padding-top:11px;
+        padding-bottom:61px;
+    }
+    .pick_content h2 {
+        font-size:42px;
+    }
+    .pick_content h3 {
+        margin-top:26px;
+    }
+    .pick_p {
+        padding-left:20px;
+        padding-right:10px !important;
+    }
+    .pick_alg {
+        position:relative;
+        left:-6px;
+        margin-top:18px;
+        grid-template-columns:168px 42px 168px 42px 168px;
+    }
+    .pick_alg_arrow img {
+        position:absolute;
+        top:-16px;
+        left:-30px;
+    }
+    .pick .button {
+        margin-top:39.5px;
+    }
+    .pick_title {
+        padding-left:20px;
+        font-size:22px;
+    }
+    .testimonials_content {
+        gap:0;
+        margin-top:8px;
+        flex-wrap:wrap;
+        grid-template-columns:1fr;
+    }
+    .testimonials_content>* {
+        min-width:100%;
+        max-width:auto;
+        margin-top:17px;
+    }
+    .testimonials_content>*:nth-child(n+4) {
+        display:none;
+    }
+    .testimonials_item_container p {
+        margin-bottom:8px;
+        -webkit-line-clamp:2;
+    }
+    .testimonials h2 {
+        margin-top:61px;
+    }
+    .testimonials_progress {
+        width:50%;
+        margin:21px auto 11px auto;
+        opacity:0;
+    }
+    .testimonials .button {
+        width:240px;
+        margin:0 auto;
+    }
+    .testimonials_side {
+        right:-62px;
+        bottom:-252px;
+        -webkit-transform:scale(0.5);
+        transform:scale(0.5);
+    }
+    .footer {
+        margin-top:80px;
+        padding-top:13px;
+        padding-bottom:10px;
+    }
+    .footer .container {
+        grid-template-columns:1fr;
+        padding:0 20px !important;
+    }
+    .footer_social {
+        margin-top:0;
+        position:absolute;
+        top:0;
+        right:20px;
+        gap:20px;
+    }
+    .footer_social_item p {
+        display:none;
+    }
+    .footer_navigation {
+        position:absolute;
+        left:20px;
+        top:auto;
+        bottom:0;
+    }
+    .footer_subscribe {
+        display:none;
+    }
+    .footer .button {
+        margin-top:32px;
+        margin-bottom:120px;
+    }
+    .donation {
+        padding-bottom:46px;
+    }
+    .donation_info {
+        padding-top:27px;
+    }
+    .donation_info h2 {
+        font-size:24px;
+        padding-right:7px;
+    }
+    .donation_info h3 {
+        margin-top:31px;
+    }
+    .donation_info p {
+        margin-top:17px;
+    }
+    .donation_action {
+        padding-top:29px;
+        padding-bottom:30px;
+        margin-top:28px;
+    }
+    .donation_action h2 {
+        margin-left:0;
+    }
+    .donation_action>p {
+        padding-left:0;
+        margin-top:23px;
+        text-align:center;
+    }
+    .feed_diet {
+        margin-top:47px;
+    }
+    .donation_progress {
+        max-width:600px;
+        width:100%;
+        margin-top:43px;
+        overflow:hidden;
+    }
+    .donation_progress::before {
+        width:100%;
+        top:29px;
+        left:0;
+    }
+    .donation_progress::after {
+        width:86.6%;
+        top:41px;
+        left:40px;
+    }
+    .donation_progress p {
+        margin-left:9px;
+    }
+    .donation_progress input {
+        width:93%;
+        left:3.3%;
+        margin-top:19px;
+    }
+    .donation_progress datalist {
+        width:108%;
+        left:-20px;
+        grid-template-columns:repeat(5, 1fr);
+    }
+    .donation_progress datalist option::before {
+        top:-32px;
+        left:55px;
+    }
+    .donation_amount {
+        margin-top:48px;
+    }
+    .donation_amount input {
+        height:42px !important;
+    }
+    .donation_amount_input {
+        width:182px;
+        margin:0 auto;
+    }
+    .donation_amount_input:after {
+        top:11px;
+    }
+    .donation_amount_radio {
+        margin:30px 0 28px -21px;
+    }
+    .donate .panda {
+        margin-top:34px;
+        height:335px;
+        background:url(../../assets/img/Giant_Panda.png) no-repeat left -234px center/200%;
+    }
+    .donate .footer_navigation {
+        left:20px;
+    }
+    .designed {
+        right:-28px;
+    }
+}
+@media(max-width: 630px) {
+    .container {
+        padding:0 10px;
+    }
+    .header .navigation:before {
+        right:10px;
+        top:12px;
+    }
+    .navigation ul {
+        gap:30px;
+    }
+    .main .watch {
+        height:221px;
+    }
+    .watch {
+        background:url(../../assets/img/Giant_Panda.png) no-repeat center top 34px/120%;
+    }
+    .slogan {
+        display:block;
+        width:130px;
+        top:33px;
+        right:8px;
+        font-size:28px;
+        white-space:break-spaces;
+    }
+    .slogan:before {
+        width:119px;
+        height:119px;
+        top:23px;
+        left:-19px;
+    }
+    .slogan .button {
+        margin-top:40px;
+        margin-left:-132%;
+    }
+    .backstage_content h2 {
+        font-size:24px;
+        margin-top:105px;
+        padding-right:0;
+    }
+    .backstage_content h3 {
+        margin-top:20px;
+    }
+    .backstage_content p {
+        margin-top:11px;
+        padding-right:10px;
+    }
+    .backstage_content p:last-child {
+        margin-top:10px;
+        padding-right:0;
+        line-height:137%;
+    }
+    .backstage_side_img {
+        right:0;
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    .pets {
+        margin-top:44px;
+    }
+    .pets .container {
+        margin-left:-8px;
+        padding:0 17px;
+    }
+    .pets_content {
+        grid-template-columns:1fr;
+        row-gap:19px;
+    }
+    .pets_arrows {
+        display:none;
+    }
+    .pets .button {
+        width:298px;
+        margin-top:19px;
+        margin-left:15px;
+    }
+    .pick {
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-top:60px;
+    }
+    .pick .container {
+        padding:0 10px !important;
+    }
+    .pick_content {
+        padding-top:20px;
+        padding-bottom:39px;
+    }
+    .pick_content h2 {
+        font-size:24px;
+    }
+    .pick_content h3 {
+        margin-top:19px;
+        font-size:23px;
+    }
+    .pick_title {
+        padding-left:0;
+        margin-top:12px;
+        font-size:18px;
+        text-align:center;
+    }
+    .pick_p {
+        display:none;
+    }
+    .pick_alg {
+        left:0;
+        margin-top:20px;
+        grid-template-columns:1fr;
+        grid-template-rows:222px 20px 222px 20px 222px;
+    }
+    .pick_alg_item {
+        width:168px;
+        margin:0 auto;
+    }
+    .pick_alg_item:last-child {
+        margin-top:10px;
+    }
+    .pick_alg_item p {
+        margin-top:10px;
+    }
+    .pick_alg_arrow img {
+        -webkit-transform:rotate(90deg);
+        transform:rotate(90deg);
+        top:-25px;
+        left:auto;
+        right:5px;
+    }
+    .pick .button {
+        margin-top:47.5px;
+    }
+    .testimonials_content {
+        gap:0;
+        margin-top:1px;
+    }
+    .testimonials_content>* {
+        margin-top:16px;
+    }
+    .testimonials_item_container {
+        padding-left:11px;
+        padding-top:9px;
+        padding-bottom:4px;
+    }
+    .testimonials_item_container p {
+        position:relative;
+        left:5px;
+    }
+    .testimonials h2 {
+        margin-top:30px;
+        font-size:24px;
+    }
+    .testimonials_side {
+        right:-93px;
+        bottom:-250px;
+        -webkit-transform:scale(0.25);
+        transform:scale(0.25);
+    }
+    .testimonials .button {
+        margin-top:-10px;
+    }
+    .footer {
+        margin-top:60px;
+    }
+    .footer .logo {
+        width:94%;
+        height:38px;
+        border:0;
+    }
+    .footer .logo img {
+        left:148px;
+        bottom:13px;
+    }
+    .footer_social {
+        top:59px;
+        right:63px;
+        gap:30px;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        flex-direction:row;
+    }
+    .footer_navigation {
+        bottom:10px;
+    }
+    .footer .button {
+        left:-11px;
+        margin-top:78px;
+        margin-bottom:141px;
+    }
+    .designed {
+        right:-42px;
+        bottom:61px;
+    }
+    .designed p {
+        font-size:15px;
+    }
+    .donate .panda {
+        margin-top:21px;
+        height:200px;
+        background:url(../../assets/img/Giant_Panda.png) no-repeat left -135px top -70px/230%;
+    }
+    .donation {
+        padding-bottom:21px;
+    }
+    .donation_info h3 {
+        font-size:24px;
+    }
+    .donation_info p {
+        line-height:137%;
+    }
+    .donation_action {
+        padding-bottom:20px;
+    }
+    .donation_action h2 {
+        font-size:24px;
+        margin-top:-8px;
+    }
+    .donation_action>p {
+        margin-top:12px;
+        font-size:16px;
+    }
+    .feed_diet {
+        margin-top:13px;
+        grid-template-columns:auto 55px 160px;
+    }
+    .feed_diet_top {
+        position:relative;
+        top:-12px;
+        left:12px;
+    }
+    .feed_diet_top div {
+        font-size:40.5px;
+    }
+    .feed_diet_top p {
+        font-size:9px;
+    }
+    .feed_diet_mid {
+        position:relative;
+        top:-5px;
+        left:10px;
+    }
+    .feed_diet_mid img {
+        width:7.9px;
+    }
+    .donation_progress {
+        max-width:300px;
+        margin-top:5px;
+    }
+    .donation_progress::before {
+        height:13.5px;
+    }
+    .donation_progress::after {
+        top:35px;
+        left:20px;
+    }
+    .donation_progress p {
+        margin-left:0;
+    }
+    .donation_progress input {
+        width:100%;
+        left:0;
+        top:-4px;
+        margin-top:0;
+    }
+    .donation_progress input::-webkit-slider-thumb {
+        -webkit-transform:scale(0.5);
+        transform:scale(0.5);
+    }
+    .donation_progress datalist {
+        left:-12px;
+        font-size:13px;
+        margin-top:0;
+    }
+    .donation_progress datalist option::before {
+        width:5px;
+        height:5px;
+        top:-12px;
+        left:30px;
+    }
+    .donation_amount {
+        margin-top:28px;
+    }
+    .donation_amount_radio {
+        margin:22px 0 26.5px -21px;
+    }
+    .donate .designed {
+        right:-53px !important;
+    }
+}
+
